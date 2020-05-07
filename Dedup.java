@@ -52,7 +52,7 @@ public static void main(String[] args) throws Exception{
 	job.setOutputKeyClass(Text.class);      
 	
 	job.setOutputValueClass(Text.class); 
-
+	修改	
        //设置输入和输出目录      
 	FileInputFormat.addInputPath(job,new Path(otherArgs[0]));   
 	FileOutputFormat.setOutputPath(job, new Path(otherArgs[1]));      
